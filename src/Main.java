@@ -1,3 +1,4 @@
+import tasks.EighthProblem;
 import tasks.SeventhProblem;
 
 import java.util.Scanner;
@@ -13,8 +14,10 @@ public class Main {
         FourthProblem.solve(scanner);
         FifthProblem.solve(scanner);
         SixthProblem.solve(scanner);
+        SeventhProblem.solve(scanner);
  */
 
-        SeventhProblem.solve(scanner);
+
+        EighthProblem.solve(scanner);
     }
 }
