@@ -33,7 +33,7 @@ public class FirstProblem {
             array[i] = scanner.nextInt();
         }
 
-        int solution = FirstProblem.minElement(n, array, 0);
+        int solution = minElement(n, array, 0);
         System.out.println(solution);
     }
 }
