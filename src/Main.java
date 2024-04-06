@@ -15,7 +15,8 @@ public class Main {
         SixthProblem.solve(scanner);
         SeventhProblem.solve(scanner);
         EighthProblem.solve(scanner);
- */
         NinthProblem.solve(scanner);
+ */
+        TenthProblem.solve(scanner);
     }
 }
