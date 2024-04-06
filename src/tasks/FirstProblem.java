@@ -6,6 +6,7 @@ public class FirstProblem {
     /**
      * This method calculates the minimum elements of the array.
      * Time complexity of the algorithm is O(n)
+     * Algorithm will pass all numbers from 0 to n, so it have linear complexity.
      * This function recursively finds the minimum element in the array.
      * When index is greater than or equal than n, method will return
      *

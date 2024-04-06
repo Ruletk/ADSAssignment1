@@ -7,7 +7,10 @@ public class FifthProblem {
 
     /**
      * Cached algorithm for finding Fibonacci number.
-     * time complexity of the algorithm is O(n).
+     * Time complexity of the algorithm is O(n).
+     * Because algorithm caches all previous Fibonacci numbers, they don't count again.
+     * Algorithm will pass only one branch (left), other branches already calculated and
+     * waiting in the cache. So this algorithm have linear complexity.
      * If number lesser than 2, it will return the n number (0 or 1)
      * Then algorithm checking the cache and if it has empty value,
      * it will be filled by Fibonacci number using recursion.

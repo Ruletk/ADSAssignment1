@@ -6,6 +6,8 @@ public class TenthProblem {
     /**
      * Recursive algorithm for calculating gcd (great common divisor) of two numbers
      * Time complexity of the algorithm is O(log(min(a, b))).
+     * The number of a and b decreases significantly fast. For the worst case: a and b is Fibonacci numbers,
+     * the maximum time is O(log(b)).
      * When remainder is equal to 0 (b divides a without a remainder), algorithm will return a (because)
      * in last iteration a was b (dividend).
      * Then algorithm returns a copy of himself, but a now is b, and b is a % b.

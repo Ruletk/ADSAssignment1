@@ -6,7 +6,8 @@ public class EighthProblem {
 
     /**
      * Recursion algorithm for checking string contains only digits.
-     * Time complexity of algorithm is O(n)
+     * Time complexity of algorithm is O(n).
+     * Every char in string passes only once, so this algorithm is linear.
      * Casting char at index position to int and comparing with '0' and '9' at ascii representation.
      * If char inside that interval, algorithm will be checking next character inside input.
      *

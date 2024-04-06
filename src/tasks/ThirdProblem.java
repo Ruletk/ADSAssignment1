@@ -12,6 +12,9 @@ public class ThirdProblem {
      * Then calling a recursive method with increased current value.
      * If in any of recursion level number n have a remainder, it will return false
      * because of 'And' operation have one false.
+     * Upper bound (sqrt(n)) is because every number doesn't have numbers that divide the original number
+     * greater than sqrt(n). And for efficiency of the algorithm it goes from 0 to sqrt(n).
+     * This algorithm have sub-linear (sqrt(n)) complexity.
      *
      * @param n       Number that checking.
      * @param current Current number for division checking. Default is 0.

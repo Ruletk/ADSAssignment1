@@ -6,6 +6,7 @@ public class SecondProblem {
     /**
      * This method calculates the sum of the array
      * Time complexity of the algorithm is O(n)
+     * Algorithm will pass all numbers from start the array to the end, so it have linear complexity.
      * While index lesser than n, algorithm will add element from array with current index
      * Otherwise it will return 0 and recursion will be stopped.
      *
@@ -21,7 +22,7 @@ public class SecondProblem {
 
     /**
      * This method calculates the average of the array based on sum of the array.
-     * Time complexity of the algorithm is O(n) (because sum have O(n) complexity and O(1) for this method).
+     * Time complexity of the whole algorithm is O(n) (because sum have O(n) complexity and O(1) for this method).
      * It will take the sum and divide by count.
      *
      * @param n     Count of elements in array

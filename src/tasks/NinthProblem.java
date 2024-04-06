@@ -6,6 +6,8 @@ public class NinthProblem {
     /**
      * This method calculates the binomial coefficient by two numbers.
      * Time complexity of the algorithm is O(2^n).
+     * The upper bound of complexity of this algorithm is 2^n for k = n/2.
+     * We have n/2 steps of the algorithm and every step have extra operation inside.
      * This function recursively finds the binomial coefficient by formula.
      * When k is equals to n or equals to 0, algorithm will return 1.
      *

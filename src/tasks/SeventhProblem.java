@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class SeventhProblem {
     /**
      * Recursion algorithm for printing numbers in reverse order.
-     * Time complexity is O(n)
+     * Time complexity is O(n).
+     * It because algorithm passing the entering numbers only once, so this algorithm is linear.
      * This algorithm saves current number and calls this algorithm again, with decreased iter number.
      * When iter reaches 0, algorithm will stop receiving numbers and prints numbers from last to first.
      *

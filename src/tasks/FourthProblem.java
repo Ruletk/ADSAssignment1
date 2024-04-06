@@ -6,6 +6,7 @@ public class FourthProblem {
     /**
      * Recursive algorithm for finding factorial of the number.
      * Algorithm complexity is O(n)
+     * Because this algorithm pass all integer numbers from n to 0, so it have linear complexity.
      * While n is not equal to 0, returning number n multiplied by
      * algorithm with decreased n number.
      *

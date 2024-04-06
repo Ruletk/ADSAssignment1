@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class SixthProblem {
     /**
      * Recursion algorithm to get the power of the number
-     * Time complexity is O(n)
+     * Time complexity is O(b)
+     * Because b passing all integer numbers from b to 0, this algorithm is linear.
      * If power number equals 0, it will be return 0.
      * If power number greater than 0, algorithm will multiply number a
      * by the algorithm, but power will be decreased
