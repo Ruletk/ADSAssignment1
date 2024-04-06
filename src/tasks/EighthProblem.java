@@ -17,7 +17,7 @@ public class EighthProblem {
     public static boolean isStringDigit(String input, int index) {
         if (index >= input.length()) return true;
         int onIndex = input.charAt(index);
-        return onIndex >= 48 && onIndex <= 57  && isStringDigit(input, index + 1);
+        return onIndex >= 48 && onIndex <= 57 && isStringDigit(input, index + 1);
     }
 
     /**

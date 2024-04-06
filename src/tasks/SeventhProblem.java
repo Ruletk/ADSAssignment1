@@ -10,7 +10,7 @@ public class SeventhProblem {
      * When iter reaches 0, algorithm will stop receiving numbers and prints numbers from last to first.
      *
      * @param scanner Scanner object for user input.
-     * @param iter Remaining number of iterations.
+     * @param iter    Remaining number of iterations.
      */
     private static void solve(Scanner scanner, int iter) {
         if (iter == 0) return;

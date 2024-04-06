@@ -13,9 +13,9 @@ public class ThirdProblem {
      * If in any of recursion level number n have a remainder, it will return false
      * because of 'And' operation have one false.
      *
-     * @param n Number that checking.
+     * @param n       Number that checking.
      * @param current Current number for division checking. Default is 0.
-     * @param max Upper bound for current number. Default 0.
+     * @param max     Upper bound for current number. Default 0.
      * @return Is number n is prime.
      */
     public static boolean isPrime(int n, int current, int max) {

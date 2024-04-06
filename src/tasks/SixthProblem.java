@@ -19,7 +19,7 @@ public class SixthProblem {
         if (b == 0) return 1;
         if (b > 0)
             return a * recursionPower(a, b - 1);
-        return (double) 1/a * recursionPower(a, b + 1);
+        return (double) 1 / a * recursionPower(a, b + 1);
     }
 
     /**
